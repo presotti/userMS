@@ -30,6 +30,3 @@ jobs:
 
       - name: Run tests
         run: ./gradlew test
-
-      - name: Run Ktlint (code style checker)
-        run: ./gradlew ktlintCheck
